@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error-message {
+  @apply text-red-500 
+    text-xs 
+    italic;
+}
+
+.show-box {
+  @apply border-gray-500
+        border-4;
+}
+
+.navbar {
+  @apply top-0
+  sticky;
+}
+
+.input-form {
+  @apply shadow 
+    appearance-none 
+    border 
+    rounded 
+    w-full 
+    py-2 
+    px-3 
+    text-gray-700 
+    leading-tight;
+}
+.label-form {
+  @apply block 
+    text-gray-700 
+    text-sm 
+    font-bold 
+    mb-2;
+}
+
+.container-form {
+  @apply flex 
+    justify-center 
+    items-center 
+    h-screen 
+    bg-gray-100;
+}
+
+.form {
+  @apply bg-white 
+    p-6 
+    rounded 
+    shadow-md 
+    w-[95%] 
+    md:w-[50%];
+}
+
+.single-window {
+  @apply p-4
+        w-full
+        text-center
+        cursor-pointer
+        border-2;
+}
+
+.container-close-modal {
+  @apply rounded-md
+        bg-red-500
+        text-white
+        w-auto
+        px-3
+        py-1
+        my-4
+        text-center
+        cursor-pointer;
+}
+
+.container-modal-content {
+  @apply bg-white
+        shadow-md
+        rounded
+        px-4
+        pt-0
+        pb-8
+        mb-4
+        flex
+        max-h-[90%]
+        overflow-auto
+        flex-col
+        w-5/6;
+}
+
+.submit-button {
+  @apply bg-blue-500 
+    hover:bg-blue-700 
+    text-white 
+    font-bold 
+    py-2 
+    px-4 
+    rounded;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
