@@ -1,29 +1,59 @@
-# project-management-front
+# Frontend del Sistema de Gestión de Productos
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es el frontend del sistema de gestión de productos desarrollado con Vue.js.
 
-## Recommended IDE Setup
+## Requisitos previos
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Node.js >= 16
+- npm o pnpm
 
-## Customize configuration
+## Instalación
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clona el repositorio:
+```bash
+git clone https://github.com/elkinsierrah/stock-products-sistems.git
+cd stock-products-sistems/products-front
+```
 
-## Project Setup
-
-```sh
+2. Instala las dependencias:
+```bash
 npm install
+# o si prefieres usar pnpm
+pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+3. Configura el archivo de entorno:
+```bash
+cp .env.example .env
+```
 
-```sh
+4. Configura la URL de la API en el archivo `.env`
+
+5. Inicia el servidor de desarrollo:
+```bash
 npm run dev
+# o si prefieres usar pnpm
+pnpm run dev
 ```
 
-### Compile and Minify for Production
+## Compilar para producción
 
-```sh
+```bash
 npm run build
+# o si prefieres usar pnpm
+pnpm run build
 ```
+
+## Usando Docker
+
+También puedes usar Docker para ejecutar la aplicación:
+
+```bash
+docker-compose up -d
+```
+
+## Características
+
+- Autenticación de usuarios
+- Gestión de productos (CRUD)
+- Interfaz de usuario intuitiva con Tailwind CSS
