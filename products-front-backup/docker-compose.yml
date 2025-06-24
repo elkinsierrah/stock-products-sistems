@@ -1,9 +1,0 @@
-services:
-  webapp:
-    build:
-      context: .
-    image: products-front:latest
-    container_name: products-front
-    ports:
-      - "80:80"
-    restart: unless-stopped

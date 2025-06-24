@@ -10,7 +10,7 @@
         <button @click="$emit('close')" class="bg-[#4285F4] text-white px-4 py-2 rounded-md mr-2 hover:bg-[#357ae8] transition">
           Cancelar
         </button>
-        <button @click="addProduct"
+        <button @click="createProduct"
           class="bg-[#F28B82] text-white px-4 py-2 rounded-md hover:bg-[#e57373] transition">
           Guardar
         </button>

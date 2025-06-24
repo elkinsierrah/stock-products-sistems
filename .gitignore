@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node/Vue (Frontend)
+products-front/node_modules/
+products-front/dist/
+products-front/.env
+
+# Laravel (Backend)
+products-back/vendor/
+products-back/node_modules/
+products-back/.env
+products-back/.env.*
+products-back/storage/
+products-back/public/storage
+products-back/storage/logs/
+
+# Docker
+**/.docker/
+**/docker-compose.override.yml
+**/docker-compose.yml.lck
+
+# System files
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Editor/IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test/Coverage
+coverage/
+.cypress/
+cypress/videos/
+cypress/screenshots/
+
+# Env templates
+.env.*

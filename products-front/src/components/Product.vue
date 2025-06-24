@@ -119,7 +119,8 @@
       }
     },
     mounted() {
-      this.fetchProducts();
+      //this.fetchProducts();
+      this.fetchProducts(1, this.pagination.per_page);
     }
   };
   </script>
